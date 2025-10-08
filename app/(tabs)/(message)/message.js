@@ -50,7 +50,6 @@ export default function Conversation() {
 
     return (
         <View style={styles.container}>
-            {/* HEADER */}
             <View style={styles.header}>
                 <Ionicons
                     name="arrow-back-outline"
@@ -69,7 +68,6 @@ export default function Conversation() {
                 </View>
             </View>
 
-            {/* LISTE DE MESSAGES */}
             <FlatList
                 data={conversation.messages}
                 keyExtractor={(item) => item.id.toString()}
@@ -85,7 +83,7 @@ export default function Conversation() {
                         >
                             {!isUser && (
                                 <Image
-                                    source={{ uri: "https://placekitten.com/80/80" }}
+                                    source={{ uri: "https://www.placekittens.com/80/80" }}
                                     style={styles.avatarSmall}
                                 />
                             )}
@@ -109,7 +107,6 @@ export default function Conversation() {
                 }}
             />
 
-            {/* INPUT / CONVERSATION CLOSE */}
             {conversationBlocked ? (
                 <Text style={styles.footerText}>
                     🕓 Cette conversation est close.{" "}
@@ -167,7 +164,7 @@ const styles = StyleSheet.create({
     },
     otherBubble: {
         backgroundColor: "#f1f1f1",
-        borderTopLeftRadius: 0,
+        borderBottomLeftRadius: 0,
         marginLeft: 5,
     },
     userBubble: {
