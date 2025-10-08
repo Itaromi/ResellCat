@@ -128,7 +128,7 @@ app/
 ## 🧑‍💻 Auteur
 
 **Youn Sylvestre**  
-[![GitHub](https://img.shields.io/badge/GitHub-sylvestre.youn-181717?style=for-the-badge&logo=github)](https://github.com/sylvestre.youn)
+[![GitHub](https://img.shields.io/badge/GitHub-sylvestre.youn-181717?style=for-the-badge&logo=github)]([https://github.com/sylvestre.youn](https://github.com/Itaromi))
 
 ---
 
