@@ -8,6 +8,7 @@ export default function Playground() {
         { title: "exo 3 - useContext", route: "/(sandbox)/exo-context" },
         { title: "exo 4 - Zustand", route: "/(sandbox)/exo-zustand" },
         { title: "exo 5 - Formulaire", route: "/(sandbox)/exo-formulaire" },
+        { title: "exo 6 - Photos", route: "/(sandbox)/exo-photos" },
     ];
 
     return (

@@ -36,6 +36,10 @@ export default function SandboxLayout() {
                 name="exo-formulaire"
                 options={{ title: "Exercice 5 - Formulaire" }}
             />
+            <Stack.Screen
+                name="exo-photos"
+                options={{ title: "Exercice 6 - Photos" }}
+            />
         </Stack>
     );
 }

@@ -21,6 +21,16 @@ export default function TabsLayout() {
             />
 
             <Tabs.Screen
+                name="(message)"
+                options={{
+                    title: 'Message',
+                    tabBarIcon: ({ color, size }) => (
+                        <Ionicons name="chatbubbles" color={color} size={size} />
+                    ),
+                }}
+            />
+
+            <Tabs.Screen
                 name="(panier)/panier"
                 options={{
                     title: 'Panier',
@@ -36,7 +46,7 @@ export default function TabsLayout() {
                     title: 'Profil',
                     headerShown: false,
                     tabBarIcon: ({ color, size }) => (
-                        <Ionicons name="person-circle-outline" color={color} size={size} />
+                        <Ionicons name="person-circle" color={color} size={size} />
                     ),
                 }}
             />
